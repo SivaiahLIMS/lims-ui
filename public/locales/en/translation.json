@@ -1,0 +1,142 @@
+{
+  "common": {
+    "save": "Save", "cancel": "Cancel", "delete": "Delete", "edit": "Edit",
+    "view": "View", "create": "Create", "search": "Search", "filter": "Filter",
+    "export": "Export", "import": "Import", "upload": "Upload", "download": "Download",
+    "approve": "Approve", "reject": "Reject", "submit": "Submit", "close": "Close",
+    "confirm": "Confirm", "back": "Back", "next": "Next", "finish": "Finish",
+    "loading": "Loading...", "noData": "No data available", "required": "This field is required",
+    "actions": "Actions", "status": "Status", "date": "Date", "name": "Name",
+    "code": "Code", "description": "Description", "notes": "Notes", "all": "All",
+    "active": "Active", "inactive": "Inactive", "yes": "Yes", "no": "No",
+    "rowsPerPage": "Rows per page", "of": "of", "page": "Page",
+    "createdAt": "Created At", "updatedAt": "Updated At", "createdBy": "Created By"
+  },
+  "nav": {
+    "dashboard": "Dashboard", "documents": "Documents", "worksheets": "Worksheets",
+    "chemicals": "Chemicals", "storage": "Storage", "instruments": "Instruments",
+    "oos": "OOS / OOT", "eln": "ELN", "training": "Training", "tasks": "Tasks",
+    "notifications": "Notifications", "audit": "Audit Log", "analytics": "Analytics",
+    "users": "Users", "tenants": "Tenants", "suppliers": "Suppliers",
+    "qa": "Quality Assurance", "samples": "Samples", "barcode": "Barcode Scanner",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Sign In", "logout": "Sign Out", "username": "Username",
+    "password": "Password", "loginTitle": "Welcome to LIMS",
+    "loginSubtitle": "Laboratory Information Management System",
+    "loginError": "Invalid credentials. Please try again.",
+    "sessionExpired": "Session expired. Please sign in again."
+  },
+  "dashboard": {
+    "title": "Dashboard", "criticalAlerts": "Critical Alerts", "pendingTasks": "Pending Tasks",
+    "lowStock": "Low Stock Chemicals", "calibrationDue": "Calibration Due",
+    "oosSummary": "OOS Summary", "activeWorksheets": "Active Worksheets",
+    "recentActivity": "Recent Activity", "teamWorkload": "Team Workload"
+  },
+  "documents": {
+    "title": "Documents", "list": "Document List", "create": "Create Document",
+    "upload": "Upload Version", "versions": "Versions", "lifecycle": "Lifecycle",
+    "compare": "Compare Versions", "parsed": "Parsed Preview",
+    "docCode": "Document Code", "docName": "Document Name",
+    "docType": "Document Type", "version": "Version", "versionNo": "Version No.",
+    "status": { "DRAFT": "Draft", "REVIEW": "In Review", "APPROVED": "Approved",
+      "PUBLISHED": "Published", "RETIRED": "Retired", "SUPERSEDED": "Superseded" }
+  },
+  "worksheets": {
+    "title": "Worksheets", "list": "Worksheet List", "execute": "Execute Worksheet",
+    "review": "Review Worksheet", "sampleId": "Sample ID", "analyst": "Analyst",
+    "startExecution": "Start Execution", "fieldValue": "Field Value",
+    "chemical": "Chemical", "instrument": "Instrument", "usedAmount": "Used Amount",
+    "editReason": "Reason for Edit", "locked": "Locked", "auditTrail": "Audit Trail",
+    "scanContainer": "Scan Container", "pickFromStorage": "Pick from Storage",
+    "oosDetected": "OOS Detected!", "submitSuccess": "Worksheet submitted successfully."
+  },
+  "chemicals": {
+    "title": "Chemicals", "master": "Chemical Master", "registration": "Registration",
+    "stock": "Stock", "containers": "Containers", "issuance": "Issuance",
+    "destruction": "Destruction", "fefo": "FEFO Selection", "expiry": "Expiry Alerts",
+    "chemCode": "Chemical Code", "chemName": "Chemical Name", "casNumber": "CAS Number",
+    "grade": "Grade", "manufacturer": "Manufacturer", "supplier": "Supplier",
+    "hazardClass": "Hazard Class", "storageCondition": "Storage Condition",
+    "uom": "Unit of Measure", "quantity": "Quantity", "expiryDate": "Expiry Date",
+    "lotNumber": "Lot Number", "barcode": "Barcode", "batchNo": "Batch No."
+  },
+  "instruments": {
+    "title": "Instruments", "list": "Instrument List", "calibration": "Calibration",
+    "reservation": "Reservation", "downtime": "Downtime", "limits": "Calibration Limits",
+    "instCode": "Instrument Code", "instName": "Instrument Name", "model": "Model",
+    "serialNo": "Serial Number", "calibrationFreq": "Calibration Frequency",
+    "calibrationDate": "Calibration Date", "nextCalibration": "Next Calibration",
+    "status": { "AVAILABLE": "Available", "RESERVED": "Reserved",
+      "CALIBRATION_DUE": "Calibration Due", "OUT_OF_SERVICE": "Out of Service" }
+  },
+  "storage": {
+    "title": "Storage", "tree": "Storage Hierarchy", "location": "Location",
+    "placement": "Container Placement", "history": "Movement History",
+    "violations": "Violations", "locCode": "Location Code", "locName": "Location Name",
+    "locType": "Location Type", "capacity": "Capacity", "occupied": "Occupied",
+    "temperature": "Temperature Range", "violation": "Violation", "resolve": "Resolve"
+  },
+  "oos": {
+    "title": "OOS / OOT", "detection": "OOS Detection", "investigation": "Investigation",
+    "approval": "Approval", "testName": "Test Name", "value": "Measured Value",
+    "limit": "Limit", "deviation": "Deviation", "rootCause": "Root Cause",
+    "decision": "Decision", "status": { "PENDING": "Pending", "INVESTIGATING": "Investigating",
+      "APPROVED": "Approved", "CLOSED": "Closed" }
+  },
+  "training": {
+    "title": "Training", "materials": "Materials", "assign": "Assign Training",
+    "records": "Training Records", "approval": "Approval",
+    "matTitle": "Material Title", "matType": "Material Type",
+    "dueDate": "Due Date", "completedDate": "Completion Date",
+    "score": "Score", "status": { "ASSIGNED": "Assigned", "IN_PROGRESS": "In Progress",
+      "COMPLETED": "Completed", "EXPIRED": "Expired" }
+  },
+  "tasks": {
+    "title": "Tasks", "list": "Task List", "details": "Task Details",
+    "accept": "Accept Task", "complete": "Complete Task",
+    "taskType": "Task Type", "priority": "Priority", "assignedTo": "Assigned To",
+    "dueDate": "Due Date", "comments": "Comments",
+    "status": { "PENDING": "Pending", "IN_PROGRESS": "In Progress",
+      "COMPLETED": "Completed", "CANCELLED": "Cancelled" }
+  },
+  "audit": {
+    "title": "Audit Log", "entityType": "Entity Type", "entityId": "Entity ID",
+    "action": "Action", "oldValue": "Old Value", "newValue": "New Value",
+    "performedBy": "Performed By", "timestamp": "Timestamp"
+  },
+  "analytics": {
+    "title": "Analytics", "chemical": "Chemical Analytics", "instrument": "Instrument Analytics",
+    "worksheet": "Worksheet Analytics", "user": "User Analytics",
+    "storage": "Storage Analytics", "predictive": "Predictive Alerts",
+    "oos": "OOS Analytics", "dateRange": "Date Range", "trend": "Trend",
+    "utilization": "Utilization", "drift": "Drift"
+  },
+  "users": {
+    "title": "Users", "list": "User List", "create": "Create User", "profile": "Profile",
+    "roles": "Roles", "skills": "Skills", "workload": "Workload",
+    "fullName": "Full Name", "email": "Email", "phone": "Phone",
+    "department": "Department", "role": "Role"
+  },
+  "samples": {
+    "title": "Samples", "list": "Sample List", "register": "Register Sample",
+    "tests": "Tests", "results": "Results", "coa": "Certificate of Analysis",
+    "sampleNo": "Sample Number", "product": "Product", "batch": "Batch",
+    "sampleType": "Sample Type", "receivedDate": "Received Date"
+  },
+  "qa": {
+    "title": "Quality Assurance", "deviations": "Deviations", "capas": "CAPAs",
+    "deviation": "Deviation", "capa": "CAPA", "severity": "Severity",
+    "owner": "Owner", "dueDate": "Due Date",
+    "status": { "OPEN": "Open", "IN_PROGRESS": "In Progress", "CLOSED": "Closed" }
+  },
+  "suppliers": {
+    "title": "Suppliers", "list": "Supplier List", "rating": "Rating",
+    "documents": "Documents", "category": "Category", "contact": "Contact"
+  },
+  "notifications": {
+    "title": "Notifications", "emailLog": "Email Log", "settings": "Settings",
+    "markAllRead": "Mark All Read", "noNotifications": "No notifications"
+  }
+}
