@@ -51,7 +51,7 @@ apiClient.interceptors.response.use(
           `${import.meta.env.VITE_API_BASE_URL ?? '/api/v1'}/auth/refresh`,
           { refreshToken: auth?.refreshToken }
         );
-        const newToken = data.token;
+        const newToken = data.accessToken;
         const stored = localStorage.getItem('lims-auth');
         if (stored) {
           const parsed = JSON.parse(stored);

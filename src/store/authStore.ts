@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
 export interface LoginResponse {
-  token: string;
+  accessToken: string;
   refreshToken: string;
   userId: number;
   username: string;
@@ -36,7 +36,7 @@ export const useAuthStore = create<AuthState>()(
       permissions: [],
       setAuth: (res) =>
         set({
-          accessToken: res.token,
+          accessToken: res.accessToken,
           refreshToken: res.refreshToken,
           userId: res.userId,
           username: res.username,
